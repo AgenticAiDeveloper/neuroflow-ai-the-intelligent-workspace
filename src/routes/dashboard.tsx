@@ -128,7 +128,6 @@ function Dashboard() {
     { r: "ai" as const,   t: "Billing API latency is up 22% since Friday. I've opened an issue and pinged Marcus." },
   ]);
   const [draft, setDraft] = useState("");
-  const pathname = useRouterState({ select: (s) => s.location.pathname });
 
   function send() {
     if (!draft.trim()) return;
