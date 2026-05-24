@@ -390,7 +390,3 @@ function Dashboard() {
     </div>
   );
 }
-
-// suppress unused warning during build
-export const _p = (s: string) => s;
-void _p(useRouterState as unknown as string);
